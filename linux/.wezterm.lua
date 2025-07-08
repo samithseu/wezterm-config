@@ -51,5 +51,7 @@ config.window_frame = {
   border_top_color = border_width_color,
 }
 
+config.default_prog = { "/usr/bin/fish", "-l" } -- Or path to other shell
+
 config.window_decorations = "NONE | RESIZE" 
 return config
